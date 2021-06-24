@@ -1,0 +1,25 @@
+/*Remove Elements from BSI Website*/
+
+
+.content-header {
+	display: none !important;
+	background-color: #ff00ff;
+}
+
+.toc {
+	display: none !important;
+	background-color: #00ffff;
+}
+.toc-shadow {
+	display: none !important;
+	background-color #ffff00;
+}
+
+.scroll-top {
+	display: none !important;
+	background-color #0000FF;
+}
+
+.document-content {
+	width: 100%;
+}

@@ -1,0 +1,12 @@
+/*Format Dialog for App*/
+
+body{
+	width: 20em;
+}
+#header {
+	background-color: red;
+	text-align: center;
+}
+#main {
+	background-color: blue;
+}

@@ -1,0 +1,3 @@
+console.log('Bye Felicia');
+var element = Document.getElementByClassName(content-header);
+element.remove();

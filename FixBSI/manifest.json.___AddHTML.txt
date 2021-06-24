@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	
+	"name": "BSI Fixer",
+	"version": "1.0",
+	"description": "Remove those silly elements from BSI Pages",
+	
+	"browser_action": {
+		"default_popup": "index.html"
+	},
+	
+	"content_scripts": [
+		{
+			"matches": ["https://compliancenavigator.bsigroup.com/*"],
+			"css": ["BSI-styles.css"],
+			"js"": ["content.js"]
+		}
+	]
+}

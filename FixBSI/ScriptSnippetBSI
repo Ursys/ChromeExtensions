@@ -1,0 +1,4 @@
+console.log('Bye Felicia');
+var elem = document.getElementsByClassName('content-header');
+console.log(elem);
+elem[0].parentNode.removeChild(elem[0]);
