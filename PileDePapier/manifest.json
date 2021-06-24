@@ -1,0 +1,28 @@
+{
+	"manifest_version": 3,
+	"name": "Pile de Papier",
+	"description": "A simple note taking app",
+	"author": "L'ombre de Fée",
+	"version": "1.0",
+	
+	"permissions": [
+		"tabs",
+		"activeTab",
+		"storage"
+	],
+		
+	"icons": {
+		"16": "images/paperStack_16.png",
+		"48": "images/paperStack_48.png",
+		"128": "images/paperStack_128.png"
+	},
+	
+	"background": {
+		"service_worker": "background.js"
+	},
+		
+	"action": {
+		"default_icon": "images/paperStack_16.png"
+	}
+	
+}
